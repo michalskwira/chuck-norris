@@ -22,6 +22,5 @@ var paragraph = document.getElementById('joke');
   	});
   
     xhr.send();
-  }
-
 var response = JSON.parse(xhr.response);
+  };
